@@ -1,0 +1,16 @@
+{
+  "pollTransfer": null,
+  "pollTransact": null,
+  "styles": [
+    "digital",
+    "landscape",
+    "abstract"
+  ],
+  "mintPrice": "166666666660000000",
+  "URL": "your metadata URL, set this in contracts/contract.sol",
+  "contractAddress": "contract address",
+  "contractAddressTest": "rinkeby contract address",
+  "openSeaAPI": "https://api.opensea.io/api/v1/events",
+  "openSeaAPITest": "https://rinkeby-api.opensea.io/api/v1/events",
+  "lockEvolve": 10
+}

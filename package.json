@@ -1,0 +1,42 @@
+{
+  "name": "cryptonative",
+  "version": "1.0.0",
+  "description": "Crypto-Native dynamic NFTs",
+  "type": "module",
+  "exports": "./index.mjs",
+  "scripts": {
+    "start": "node src/index.mjs",
+    "dev": "nodemon src/index.mjs",
+    "lint": "eslint --fix src",
+    "test": "mocha --exit"
+  },
+  "keywords": [],
+  "author": "lucas neg <lucasnegritto@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luquitared/crypto-native"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.967.0",
+    "cors": "^2.8.5",
+    "cron": "^1.8.2",
+    "dotenv": "^10.0.0",
+    "ethereumjs-units": "^0.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "lodash-es": "^4.17.21",
+    "lowdb": "^2.1.0",
+    "mongoose": "^5.13.2",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "mocha": "^9.0.0",
+    "nodemon": "^2.0.7",
+    "supertest": "^6.1.3"
+  }
+}
